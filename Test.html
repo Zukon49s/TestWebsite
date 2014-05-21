@@ -3,6 +3,16 @@
 <head>
 	<!--Place for CSS/Javascript links + title -->
 	<title>The J-Prop Shop</title>
+	<!--NOTE: This isn't how you'd really do styling, you'd put it in a separate file-->
+	<style>
+		.textbox:valid{
+			border: solid green 1px;
+		}
+	
+		.textbox:invalid{
+			border: solid red 1px;
+		}
+	</style>
 </head>
 <!--Place for main content in page-->
 <body>
@@ -21,6 +31,13 @@
 		<LI><B>Master Stick ($39.95)</b></li>
 	</UL>
 </p>
+	<!--Dean edit: HTML5 intro: http://www.w3schools.com/html/html5_intro.asp-->
+	<h2>New with HTML5 </h2>
+	<p>
+		Test the border based on the value of this textbox.
+		<input id="txtTestBox_OnRange" class="textbox" type="number" min="0" max="50"/>
+		
+	</p>
 <aside style="float: right">
 	<h2>Customer Comments</h2>
 	<p>
